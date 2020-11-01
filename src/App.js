@@ -10,7 +10,7 @@ function App(){
     <hr />
     <Dinner dishName="Nihari" sweetDish="Gajir ka Halwa" />
     <hr/>
-    <Dinner dishName="Chicken Pulao" sweetDish="Green Tea" />
+    <Dinner dishName="Sabzi Pulao" sweetDish="Green Tea" />
     </header>
     </div>
   );
