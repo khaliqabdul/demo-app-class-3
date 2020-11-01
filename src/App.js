@@ -4,7 +4,7 @@ import Dinner from './dinner';
 function App(){
   return (
     <div className="App">
-    <header>
+    <header className="App-header">
     {/* This is comment tag*/}
     <Dinner dishName="Mutton Biryani" sweetDish="Kheer" />
     <hr />
