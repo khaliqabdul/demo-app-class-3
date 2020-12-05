@@ -6,13 +6,13 @@ function App(){
     <div className="App">
     <header className="App-header">
     {/* This is comment tag*/}
-    <Dinner dishName="Mutton Biryani" sweetDish="Kheer" />
+    <Dinner title="Breakfast" dishName="'Anda(eag) Paratha'" sweetDish="'Green Tea'" imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRnz9861qmgV5UJxIXuRbZIo04CUUvEX4KrQ&usqp=CAU" />
     <hr />
-    <Dinner dishName="Nihari" sweetDish="Gajir ka Halwa" />
+    <Dinner title="Lunch" dishName="'Nihari'" sweetDish="'Gajir ka Halwa'" imageUrl="" />
     <hr/>
-    <Dinner dishName="Sabzi Pulao" sweetDish="Green Tea" />
+    <Dinner title="Dinner" dishName="'Sabzi Pulao'" sweetDish="'Kheer'" imageUrl="" />
     </header>
     </div>
   );
 }
-export default App
+export default App;
