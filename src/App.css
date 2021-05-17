@@ -1,5 +1,18 @@
-.App {
+.heading {
   text-align: center;
+  text-transform: capitalize;
+  text-shadow: 0px 2px 4px gold;
+  margin: 10vh;
+  font-family: 'Calistoga', cursive;
+  font-family: 'Roboto', sans-serif;
+}
+.h2 {
+  color: red;
+  text-align: center;
+  margin: 10vh;
+}
+.a{
+  text-align: left;
 }
 
 .App-logo {
