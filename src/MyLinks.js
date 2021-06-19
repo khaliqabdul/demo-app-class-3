@@ -36,6 +36,7 @@ function Links() {
                             <li><a target="_khaliq" href="https://daveceddia.com/react-getting-started-tutorial/"><em>A Complete React Tutorial for 2020, Book by Dave Ceddia</em></a></li>
                             <li><a target="_khaliq" href="https://www.youtube.com/playlist?list=PLwGdqUZWnOp3aROg4wypcRhZqJG3ajZWJ">React JS Tutorial in Hindi 2020 by Vinod Thapa</a></li>
                         </ul>
+                        <li><a target="_khaliq" href="https://results.piaic.org/">PIAIC Results Portal</a></li>
                     </p>
                 </ol>
             </div>
