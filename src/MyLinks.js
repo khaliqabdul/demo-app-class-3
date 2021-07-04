@@ -1,8 +1,9 @@
 import React from 'react';
+import MainGrid from './App';
 import './App.css';
 
-const img1 = "https://picsum.photos/210/150";
-const img2 = "https://picsum.photos/200/150";
+// const img1 = "https://picsum.photos/210/150";
+// const img2 = "https://picsum.photos/200/150";
 
 //heading object for inline css
 const heading = {
@@ -10,7 +11,6 @@ const heading = {
     textTransform: 'capitalize',
     textShadow: '0px 2px 4px gold',
     margin: '10vh',
-
     fontFamily: 'Roboto, sans-serif'
 }
 
@@ -18,7 +18,7 @@ function Links() {
     return (
         <>
             <div style={heading}>
-                <img src={img1} alt="randomImage" align="Right" />
+                <MainGrid/>
                 <h1> Important PIAIC Links</h1>
                 <h2 className="h2"> PIAIC Portal </h2>
                 <ol>
@@ -41,7 +41,6 @@ function Links() {
                 </ol>
             </div>
             <div className="h2">
-                <img src={img2} alt="randomImage" align="Right" />
                 <h2> My React Projects </h2>
                 <ol>
                     <p className="a">
@@ -49,9 +48,9 @@ function Links() {
                         <ul>
                             <li><a target="_khaliq" href="https://github.com/khaliqabdul/Bootcamp2020Example">Github Link</a></li>
                         </ul>
-                        <li><a target="_khaliq" href="http://bootcamp2020_session2.surge.sh/">Hello React class-2</a></li>
+                        <li><a target="_khaliq" href="http://bootcamp_material-ui.surge.sh/">Material-UI Demonstration</a></li>
                         <ul>
-                            <li><a target="_khaliq" href="https://github.com/khaliqabdul/bootcamp-hello-react-class-2">Github Link</a></li>
+                            <li><a target="_khaliq" href="https://github.com/khaliqabdul/material-ui">Github Link</a></li>
                         </ul>
                         <li><a target="_khaliq" href="http://bootcamp_session-3.surge.sh/">Important Links in React</a></li>
                         <ul>
@@ -65,7 +64,7 @@ function Links() {
                         <ul>
                             <li><a target="_khaliq" href="https://github.com/khaliqabdul/BootCamp2020-React_Project002">Github Link</a></li>
                         </ul>
-                        <li><a target="_khaliq" href="http://bootcamp2020-reactproject003.surge.sh/">SurgeLink BootCamp 2020 React Project-3</a></li>
+                        <li><a target="_khaliq" href="http://bootcamp2020-reactproject003.surge.sh/">SurgeLink BootCamp 2020 React Project-3 (Expense Tracker)</a></li>
                         <ul>
                             <li><a target="_khaliq" href="https://github.com/khaliqabdul/BootCamp2020-React_Project003">Github Link</a></li>
                         </ul>
